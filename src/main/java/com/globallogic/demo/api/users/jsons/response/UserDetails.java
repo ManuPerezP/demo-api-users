@@ -36,6 +36,15 @@ public class UserDetails {
 	@JsonProperty("isactive")
 	private Boolean isActive;
 	
+	
+	
+	@Override
+	public String toString() {
+		return "UserDetails [id=" + id + ", name=" + name + ", email=" + email + ", phones=" + phones + ", created="
+				+ created + ", modified=" + modified + ", lastLogin=" + lastLogin + ", token=" + token + ", isActive="
+				+ isActive + "]";
+	}
+
 	public String getId() {
 		return id;
 	}

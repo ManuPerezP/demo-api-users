@@ -47,8 +47,8 @@ public class SwaggerConfig {
 	}
 
 	private ApiInfo apiInfo() {
-		return new ApiInfo("Users REST API", "Spring boot API with H2 mem db.", "1.0", "2021",
-				new Contact("Manuel Pérez", "", "manuel.perez.pozo@gmail.com"), "License of API:", "API license URL:",
+		return new ApiInfo("Users REST API", "Spring boot API with H2 mem db.", "1.0", "www.google.cl",
+				new Contact("Manuel Pérez", "", "manuel.perez.pozo@gmail.com"), "Li", "www.google.cl",
 				Collections.emptyList());
 	}
 

@@ -11,6 +11,13 @@ This README would normally document whatever steps are necessary to get your app
 ### How do I get set up? ###
 
 * Summary of set up
+
+    Build and Run:
+    ./gradlew bootRun
+
+    Try the API:
+    http://localhost:8080/swagger-ui/
+
 * Configuration
 * Dependencies
 * Database configuration
